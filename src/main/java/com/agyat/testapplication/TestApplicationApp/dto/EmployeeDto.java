@@ -21,7 +21,7 @@ public class EmployeeDto {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof EmployeeDto that)) return false;
-        return Objects.equals(getId(), that.getId()) && Objects.equals(getEmail(), that.getEmail()) && Objects.equals(getName(), that.getName()) && Objects.equals(getSalary(), that.getSalary());
+        return   Objects.equals(getEmail(), that.getEmail()) && Objects.equals(getName(), that.getName()) && Objects.equals(getSalary(), that.getSalary());
     }
 
     @Override
