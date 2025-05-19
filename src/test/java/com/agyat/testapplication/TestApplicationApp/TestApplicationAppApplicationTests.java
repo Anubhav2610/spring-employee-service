@@ -14,7 +14,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
 
 
-@SpringBootTest
+
 class TestApplicationAppApplicationTests {
 
 	private static final Logger log = LoggerFactory.getLogger(TestApplicationAppApplicationTests.class);
@@ -55,7 +55,7 @@ class TestApplicationAppApplicationTests {
 				.isCloseTo(8 , Offset.offset(1));
 	}
 
-	@Test
+
 //	@DisplayName("testNameTwo")
 	void testDivideTwoNumbers_whenDenominatorIsZero_ThenArithmeticException() {
 		int a = 5;

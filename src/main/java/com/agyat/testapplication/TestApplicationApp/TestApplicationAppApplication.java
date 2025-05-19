@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
 @SpringBootApplication
 public class TestApplicationAppApplication implements CommandLineRunner {
 
-	private  final DataService dataService;
+//	private  final DataService dataService;
 
 	@Value("${my.variable}")
 	private String myVariable;
@@ -27,6 +27,6 @@ public class TestApplicationAppApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 
 		System.out.println("my variable "+myVariable);
-		System.out.println("The Data is : "+dataService.getData());
+		//System.out.println("The Data is : "+dataService.getData());
 	}
 }
